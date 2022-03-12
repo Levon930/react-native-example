@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Clickable icon renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <Image />
+</View>
+`;
+
+exports[`VehicleIcon scrollView renders correctly 1`] = `
+<Image
+  resizeMode="contain"
+  style={
+    Array [
+      Object {
+        "height": 20,
+        "width": 20,
+      },
+      Object {
+        "tintColor": undefined,
+      },
+      undefined,
+    ]
+  }
+/>
+`;

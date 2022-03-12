@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "730003269420",
+    "firebase_url": "https://icity-4fa53.firebaseio.com",
+    "project_id": "icity-4fa53",
+    "storage_bucket": "icity-4fa53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730003269420:android:1c3dc4b76554feda906e89",
+        "android_client_info": {
+          "package_name": "com.icity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730003269420-mqle21aonh4hqk5hbgb9ib0kb68c5b6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6RBiHgjCXRStmB7tMukc0FnAY7jal4js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730003269420-mqle21aonh4hqk5hbgb9ib0kb68c5b6p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "730003269420-fpm9pslq884a21gkc52e4n87reuhohcp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.icity-stage.dnipro.transport"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

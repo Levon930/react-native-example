@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render AboutApp screen correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#ffffff",
+      },
+      Object {
+        "flex": 1,
+        "paddingHorizontal": 20,
+      },
+      Object {
+        "paddingBottom": 10,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 25,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          undefined,
+          Object {
+            "justifyContent": "space-between",
+          },
+        ]
+      }
+    >
+      <If
+        condition={true}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "marginBottom": 25,
+              "marginTop": 10,
+              "opacity": 1,
+            }
+          }
+        >
+          <Image />
+        </View>
+      </If>
+      <If>
+        <View
+          accessible={true}
+          focusable={false}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "marginTop": 10,
+              "opacity": 1,
+            }
+          }
+        >
+          <Image />
+        </View>
+      </If>
+    </View>
+    <If
+      condition={false}
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 48,
+          }
+        }
+      />
+    </If>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 15,
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "color": "#293043",
+              "fontWeight": "500",
+            },
+            Object {
+              "fontSize": 24,
+            },
+          ],
+        ]
+      }
+    >
+      About the app
+    </Text>
+  </View>
+  <RCTScrollView>
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 15,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 27,
+            },
+          ]
+        }
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hendrerit gravida rutrum quisque non tellus orci ac auctor. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Quisque egestas diam in arcu cursus euismod. Aliquam ut porttitor leo a diam sollicitudin tempor id. Ornare aenean euismod elementum nisi quis eleifend quam. Ullamcorper a lacus vestibulum sed arcu. Pharetra magna ac placerat vestibulum. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. Porttitor leo a diam sollicitudin tempor id eu nisl. Urna neque viverra justo nec ultrices dui sapien. Ipsum consequat nisl vel pretium lectus quam id leo in. Eget mauris pharetra et ultrices neque ornare aenean. Nam at lectus urna duis convallis.
+
+Faucibus purus in massa tempor nec feugiat nisl. Nec feugiat nisl pretium fusce. Ante metus dictum at tempor commodo ullamcorper a. Vestibulum sed arcu non odio euismod lacinia. Pellentesque sit amet porttitor eget dolor morbi non arcu. Leo urna molestie at elementum. Mi tempus imperdiet nulla malesuada pellentesque elit. Elit duis tristique sollicitudin nibh sit amet commodo nulla. Turpis tincidunt id aliquet risus feugiat in ante. Tempus egestas sed sed risus. Dapibus ultrices in iaculis nunc sed augue lacus. Ornare suspendisse sed nisi lacus sed viverra tellus. Erat velit scelerisque in dictum non consectetur a erat. In eu mi bibendum neque egestas congue. Scelerisque felis imperdiet proin fermentum.
+
+Tristique risus nec feugiat in. Fringilla ut morbi tincidunt augue interdum velit euismod in. Morbi tincidunt ornare massa eget egestas purus viverra accumsan. Adipiscing elit duis tristique sollicitudin nibh. In nibh mauris cursus mattis molestie a iaculis at erat. Elit sed vulputate mi sit. Nisl nisi scelerisque eu ultrices vitae auctor. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Nibh ipsum consequat nisl vel pretium lectus. Leo duis ut diam quam nulla. Lorem donec massa sapien faucibus et. Est ultricies integer quis auctor elit sed vulputate mi.
+
+Sit amet justo donec enim diam vulputate ut. Purus in mollis nunc sed id semper. Pellentesque eu tincidunt tortor aliquam nulla. Aliquet lectus proin nibh nisl condimentum id venenatis. Est ultricies integer quis auctor elit sed vulputate. Nisl pretium fusce id velit ut. Semper auctor neque vitae tempus. Consectetur libero id faucibus nisl tincidunt eget nullam. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor.
+
+Ornare arcu odio ut sem nulla. Sed lectus vestibulum mattis ullamcorper velit. Magna fringilla urna porttitor rhoncus dolor purus non enim. Morbi blandit cursus risus at ultrices mi. Sagittis vitae et leo duis ut diam quam nulla. Porta non pulvinar neque laoreet suspendisse interdum. Sollicitudin aliquam ultrices sagittis orci a scelerisque. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Convallis posuere morbi leo urna. Scelerisque fermentum dui faucibus in ornare quam viverra orci. Egestas sed sed risus pretium quam vulputate dignissim. Posuere ac ut consequat semper viverra nam libero justo. Et ultrices neque ornare aenean euismod elementum.
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;

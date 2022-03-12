@@ -1,0 +1,57 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "filename" : "playstore.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "playstore-1.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "playstore-2.png",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "ios-marketing",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "unassigned" : true
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "unassigned" : true
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "unassigned" : true
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "unassigned" : true
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "unassigned" : true
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "unassigned" : true
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

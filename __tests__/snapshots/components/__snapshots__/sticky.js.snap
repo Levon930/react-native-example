@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchTopPanel scrollView renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 200,
+      },
+      Object {
+        "position": "absolute",
+        "width": "100%",
+        "zIndex": 100,
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "position": "absolute",
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <BVLinearGradient
+      colors={
+        Array [
+          2569874733,
+          0,
+        ]
+      }
+      endPoint={
+        Object {
+          "x": 0.5,
+          "y": 1,
+        }
+      }
+      locations={null}
+      startPoint={
+        Object {
+          "x": 0.5,
+          "y": 0,
+        }
+      }
+      style={
+        Array [
+          Object {
+            "bottom": -10,
+            "height": 15,
+            "position": "absolute",
+            "width": "100%",
+            "zIndex": -5,
+          },
+          Object {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          Object {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Sticky Header renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingVertical": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    bold={true}
+    center={true}
+    style={
+      Array [
+        Object {
+          "fontSize": 15,
+        },
+        Object {
+          "textAlign": "center",
+        },
+        undefined,
+        Object {
+          "fontWeight": "bold",
+        },
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Object {
+          "opacity": 0,
+        },
+      ]
+    }
+  />
+</View>
+`;

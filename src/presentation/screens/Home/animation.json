@@ -1,0 +1,153 @@
+{
+  "routeId": "5e7f2eda15ad5b4c04144323",
+  "number": "14",
+  "vehicleType": 0,
+  "handicapped": false,
+  "vehicles": [
+    {
+      "timestamp": 1586172705,
+      "speed": 0,
+      "direction": 4,
+      "bort_number": "1280",
+      "handicapped": false,
+      "isSleep": true,
+      "jump": false,
+      "normal": [
+        {
+          "id": 0,
+          "radius": 0,
+          "latitude": 48.4544666,
+          "longitude": 35.0155633
+        }
+      ],
+      "expected": []
+    },
+    {
+      "timestamp": 1586172705,
+      "speed": 0,
+      "direction": 4,
+      "bort_number": "1201",
+      "handicapped": false,
+      "isSleep": false,
+      "jump": false,
+      "normal": [
+        {
+          "id": 0,
+          "radius": 0,
+          "latitude": 48.4543916,
+          "longitude": 35.0156033
+        }
+      ],
+      "expected": []
+    },
+    {
+      "timestamp": 1586172705,
+      "speed": 21,
+      "direction": 2,
+      "bort_number": "1445",
+      "handicapped": false,
+      "isSleep": false,
+      "jump": true,
+      "normal": [
+        {
+          "id": 94,
+          "radius": 50,
+          "latitude": 48.473214974025,
+          "longitude": 34.998014688492
+        },
+        {
+          "id": 95,
+          "radius": 50,
+          "latitude": 48.473239473608,
+          "longitude": 34.99794305792
+        },
+        {
+          "id": 96,
+          "radius": 50,
+          "latitude": 48.4732846125,
+          "longitude": 34.997980415821
+        },
+        {
+          "id": 97,
+          "radius": 50,
+          "latitude": 48.473239473608,
+          "longitude": 34.99794305792
+        },
+        {
+          "id": 98,
+          "radius": 50,
+          "latitude": 48.473314643098,
+          "longitude": 34.997723281383
+        },
+        {
+          "id": 99,
+          "radius": 50,
+          "latitude": 48.473328094054,
+          "longitude": 34.997684223191
+        },
+        {
+          "id": 100,
+          "radius": 50,
+          "latitude": 48.473628983119,
+          "longitude": 34.996810517081
+        },
+        {
+          "id": 101,
+          "radius": 50,
+          "latitude": 48.473929872184,
+          "longitude": 34.995936810971
+        }
+      ],
+      "expected": [
+        {
+          "id": 101,
+          "radius": 50,
+          "latitude": 48.473929872184,
+          "longitude": 34.995936810971
+        },
+        {
+          "id": 102,
+          "radius": 50,
+          "latitude": 48.474077155541,
+          "longitude": 34.99546277523
+        },
+        {
+          "id": 103,
+          "radius": 50,
+          "latitude": 48.474125971706,
+          "longitude": 34.99533355236
+        },
+        {
+          "id": 104,
+          "radius": 50,
+          "latitude": 48.47419171072,
+          "longitude": 34.995204567909
+        },
+        {
+          "id": 105,
+          "radius": 50,
+          "latitude": 48.474275231582,
+          "longitude": 34.995158731937
+        },
+        {
+          "id": 106,
+          "radius": 50,
+          "latitude": 48.474373410564,
+          "longitude": 34.995148003101
+        },
+        {
+          "id": 107,
+          "radius": 50,
+          "latitude": 48.474411922424,
+          "longitude": 34.995147295296
+        },
+        {
+          "id": 108,
+          "radius": 50,
+          "latitude": 48.474457546997,
+          "longitude": 34.995170727372
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Endless scrollView renders correctly 1`] = `
+<RCTScrollView
+  keyboardDismissMode="on-drag"
+  onLayout={[Function]}
+  onScroll={[Function]}
+  scrollEventThrottle={0}
+  showsVerticalScrollIndicator={false}
+>
+  <View />
+</RCTScrollView>
+`;
+
+exports[`Overlay renders correctly 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Array [
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      },
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Row renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Safe Area Layout renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#ffffff",
+      },
+      undefined,
+      Object {
+        "paddingBottom": 10,
+        "paddingTop": 0,
+      },
+    ]
+  }
+/>
+`;

@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stop general component render correctly 1`] = `
+<Marker
+  coordinate={
+    Object {
+      "latitude": 49.835381,
+      "longitude": 23.995241,
+    }
+  }
+  onPress={[Function]}
+  tracksViewChanges={false}
+>
+  <View
+    style={
+      Object {
+        "padding": 4,
+      }
+    }
+  >
+    <Image />
+  </View>
+</Marker>
+`;
+
+exports[`TogglingStops render correctly 1`] = `
+Array [
+  <If
+    condition={false}
+  >
+    <View>
+      <If
+        condition={true}
+      >
+        <Marker
+          coordinate={
+            Object {
+              "latitude": 49.835381,
+              "longitude": 23.995241,
+            }
+          }
+          onPress={[Function]}
+          tracksViewChanges={false}
+        >
+          <View />
+        </Marker>
+      </If>
+      <If>
+        <Marker
+          coordinate={
+            Object {
+              "latitude": 49.835381,
+              "longitude": 23.995241,
+            }
+          }
+          onPress={[Function]}
+          tracksViewChanges={false}
+        >
+          <View />
+        </Marker>
+      </If>
+    </View>
+  </If>,
+  <If
+    condition={false}
+  >
+    <View>
+      <If
+        condition={true}
+      >
+        <Marker
+          coordinate={
+            Object {
+              "latitude": 48.438530429539,
+              "longitude": 35.05035007,
+            }
+          }
+          onPress={[Function]}
+          tracksViewChanges={false}
+        >
+          <View />
+        </Marker>
+      </If>
+      <If>
+        <Marker
+          coordinate={
+            Object {
+              "latitude": 48.438530429539,
+              "longitude": 35.05035007,
+            }
+          }
+          onPress={[Function]}
+          tracksViewChanges={false}
+        >
+          <View />
+        </Marker>
+      </If>
+    </View>
+  </If>,
+]
+`;

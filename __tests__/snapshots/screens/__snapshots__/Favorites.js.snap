@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Favorites screen correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        undefined,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "black",
+          "justifyContent": "space-around",
+          "paddingTop": 30,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#629AFF",
+          "borderBottomWidth": 4,
+          "flex": 1,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        inverted={true}
+        style={
+          Array [
+            Object {
+              "fontSize": 15,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            Object {
+              "color": "#ffffff",
+            },
+            Array [
+              Object {
+                "fontSize": 14,
+                "marginVertical": 20,
+              },
+              Object {
+                "color": "#629AFF",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        Favorite Routes
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        inverted={true}
+        style={
+          Array [
+            Object {
+              "fontSize": 15,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            Object {
+              "color": "#ffffff",
+            },
+            Array [
+              Object {
+                "fontSize": 14,
+                "marginVertical": 20,
+              },
+              false,
+              undefined,
+            ],
+          ]
+        }
+      >
+        Favorite Stops
+      </Text>
+    </View>
+  </View>
+  <Choose>
+    <When
+      condition={false}
+    >
+      <If
+        condition={true}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 15,
+              },
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+              Object {
+                "padding": 20,
+              },
+            ]
+          }
+        >
+          There are no favorite stops to display
+        </Text>
+      </If>
+      <RCTScrollView
+        ItemSeparatorComponent={[Function]}
+        data={Array []}
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        refreshControl={
+          <RefreshControlMock
+            onRefresh={[Function]}
+            refreshing={false}
+          />
+        }
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={20}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <RCTRefreshControl />
+        <View />
+      </RCTScrollView>
+    </When>
+    <Otherwise>
+      <If
+        condition={true}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 15,
+              },
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+              Object {
+                "padding": 20,
+              },
+            ]
+          }
+        >
+          There are no favorite routes to display
+        </Text>
+      </If>
+      <RCTScrollView
+        ItemSeparatorComponent={[Function]}
+        data={Array []}
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        numColumns={1}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        refreshControl={
+          <RefreshControlMock
+            onRefresh={[Function]}
+            refreshing={false}
+          />
+        }
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={20}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <RCTRefreshControl />
+        <View />
+      </RCTScrollView>
+    </Otherwise>
+  </Choose>
+</View>
+`;

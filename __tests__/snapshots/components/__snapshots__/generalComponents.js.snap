@@ -1,0 +1,1006 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "borderColor": "#B7C3CF",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "height": 45,
+      "justifyContent": "center",
+      "opacity": 1,
+    }
+  }
+>
+  <View>
+    <If
+      condition={false}
+    />
+    <If>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 15,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            Object {
+              "color": "#619EF4",
+              "fontSize": 16,
+            },
+          ]
+        }
+      />
+    </If>
+  </View>
+</View>
+`;
+
+exports[`Divider renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#e5e5e5",
+        "height": 1,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`FloatingTitleTextInputField render correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderWidth": 0,
+      "height": 50,
+      "marginVertical": 4,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#D8D8D8",
+        "fontFamily": "Avenir-Medium",
+        "fontSize": 15,
+        "left": 3,
+        "position": "absolute",
+        "top": 0,
+      }
+    }
+  >
+    test
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "color": "#666",
+          "fontFamily": "Avenir-Medium",
+          "fontSize": 15,
+          "paddingTop": 15,
+        },
+        Object {},
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value="test"
+  />
+</View>
+`;
+
+exports[`Header renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 25,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        undefined,
+        Object {
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  >
+    <If>
+      <View
+        accessible={true}
+        focusable={false}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "marginBottom": 25,
+            "marginTop": 10,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image />
+      </View>
+    </If>
+    <If>
+      <View
+        accessible={true}
+        focusable={false}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "marginTop": 10,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image />
+      </View>
+    </If>
+  </View>
+  <If
+    condition={true}
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 48,
+        }
+      }
+    />
+  </If>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 15,
+        },
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Array [
+          Object {
+            "color": "#293043",
+            "fontWeight": "500",
+          },
+          Object {
+            "fontSize": 24,
+          },
+        ],
+      ]
+    }
+  >
+    header
+  </Text>
+</View>
+`;
+
+exports[`Loader render correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "aspectRatio": 1.3333333333333333,
+        },
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      autoPlay={true}
+      enableMergePathsAndroidForKitKatAndAbove={false}
+      loop={true}
+      onAnimationFinish={[Function]}
+      onLayout={[Function]}
+      progress={0}
+      resizeMode="contain"
+      sourceJson="{\\"v\\":\\"5.4.3\\",\\"fr\\":60,\\"ip\\":0,\\"op\\":67,\\"w\\":800,\\"h\\":600,\\"nm\\":\\"dot loading 1\\",\\"ddd\\":0,\\"assets\\":[],\\"layers\\":[{\\"ddd\\":0,\\"ind\\":1,\\"ty\\":4,\\"nm\\":\\"Dots\\",\\"sr\\":1,\\"ks\\":{\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":11},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":10},\\"p\\":{\\"a\\":0,\\"k\\":[400,300,0],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[-208,40,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100,100],\\"ix\\":6}},\\"ao\\":0,\\"shapes\\":[{\\"ty\\":\\"gr\\",\\"it\\":[{\\"d\\":1,\\"ty\\":\\"el\\",\\"s\\":{\\"a\\":1,\\"k\\":[{\\"i\\":{\\"x\\":[0.091,0.091],\\"y\\":[1,1]},\\"o\\":{\\"x\\":[0.446,0.446],\\"y\\":[0,0]},\\"n\\":[\\"0p091_1_0p446_0\\",\\"0p091_1_0p446_0\\"],\\"t\\":14,\\"s\\":[0,0],\\"e\\":[33.703,33.703]},{\\"i\\":{\\"x\\":[0.512,0.512],\\"y\\":[1,1]},\\"o\\":{\\"x\\":[0.887,0.887],\\"y\\":[0,0]},\\"n\\":[\\"0p512_1_0p887_0\\",\\"0p512_1_0p887_0\\"],\\"t\\":44,\\"s\\":[33.703,33.703],\\"e\\":[0,0]},{\\"t\\":74}],\\"ix\\":2},\\"p\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":3},\\"nm\\":\\"Ellipse Path 1\\",\\"mn\\":\\"ADBE Vector Shape - Ellipse\\",\\"hd\\":false},{\\"ty\\":\\"fl\\",\\"c\\":{\\"a\\":0,\\"k\\":[0,0,0,1],\\"ix\\":4},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":5},\\"r\\":1,\\"bm\\":0,\\"nm\\":\\"Fill 1\\",\\"mn\\":\\"ADBE Vector Graphic - Fill\\",\\"hd\\":false},{\\"ty\\":\\"tr\\",\\"p\\":{\\"a\\":0,\\"k\\":[-168,40],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100],\\"ix\\":3},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":6},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":7},\\"sk\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":4},\\"sa\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":5},\\"nm\\":\\"Transform\\"}],\\"nm\\":\\"Ellipse 3\\",\\"np\\":3,\\"cix\\":2,\\"bm\\":0,\\"ix\\":1,\\"mn\\":\\"ADBE Vector Group\\",\\"hd\\":false},{\\"ty\\":\\"gr\\",\\"it\\":[{\\"d\\":1,\\"ty\\":\\"el\\",\\"s\\":{\\"a\\":1,\\"k\\":[{\\"i\\":{\\"x\\":[0.091,0.091],\\"y\\":[1,1]},\\"o\\":{\\"x\\":[0.446,0.446],\\"y\\":[0,0]},\\"n\\":[\\"0p091_1_0p446_0\\",\\"0p091_1_0p446_0\\"],\\"t\\":8,\\"s\\":[0,0],\\"e\\":[33.703,33.703]},{\\"i\\":{\\"x\\":[0.512,0.512],\\"y\\":[1,1]},\\"o\\":{\\"x\\":[0.887,0.887],\\"y\\":[0,0]},\\"n\\":[\\"0p512_1_0p887_0\\",\\"0p512_1_0p887_0\\"],\\"t\\":38,\\"s\\":[33.703,33.703],\\"e\\":[0,0]},{\\"t\\":68}],\\"ix\\":2},\\"p\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":3},\\"nm\\":\\"Ellipse Path 1\\",\\"mn\\":\\"ADBE Vector Shape - Ellipse\\",\\"hd\\":false},{\\"ty\\":\\"fl\\",\\"c\\":{\\"a\\":0,\\"k\\":[0,0,0,1],\\"ix\\":4},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":5},\\"r\\":1,\\"bm\\":0,\\"nm\\":\\"Fill 1\\",\\"mn\\":\\"ADBE Vector Graphic - Fill\\",\\"hd\\":false},{\\"ty\\":\\"tr\\",\\"p\\":{\\"a\\":0,\\"k\\":[-208,40],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100],\\"ix\\":3},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":6},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":7},\\"sk\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":4},\\"sa\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":5},\\"nm\\":\\"Transform\\"}],\\"nm\\":\\"Ellipse 2\\",\\"np\\":3,\\"cix\\":2,\\"bm\\":0,\\"ix\\":2,\\"mn\\":\\"ADBE Vector Group\\",\\"hd\\":false},{\\"ty\\":\\"gr\\",\\"it\\":[{\\"d\\":1,\\"ty\\":\\"el\\",\\"s\\":{\\"a\\":1,\\"k\\":[{\\"i\\":{\\"x\\":[0.091,0.091],\\"y\\":[1,1]},\\"o\\":{\\"x\\":[0.446,0.446],\\"y\\":[0,0]},\\"n\\":[\\"0p091_1_0p446_0\\",\\"0p091_1_0p446_0\\"],\\"t\\":2,\\"s\\":[0,0],\\"e\\":[33.703,33.703]},{\\"i\\":{\\"x\\":[0.512,0.512],\\"y\\":[1,1]},\\"o\\":{\\"x\\":[0.887,0.887],\\"y\\":[0,0]},\\"n\\":[\\"0p512_1_0p887_0\\",\\"0p512_1_0p887_0\\"],\\"t\\":32,\\"s\\":[33.703,33.703],\\"e\\":[0,0]},{\\"t\\":62}],\\"ix\\":2},\\"p\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":3},\\"nm\\":\\"Ellipse Path 1\\",\\"mn\\":\\"ADBE Vector Shape - Ellipse\\",\\"hd\\":false},{\\"ty\\":\\"fl\\",\\"c\\":{\\"a\\":0,\\"k\\":[0,0,0,1],\\"ix\\":4},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":5},\\"r\\":1,\\"bm\\":0,\\"nm\\":\\"Fill 1\\",\\"mn\\":\\"ADBE Vector Graphic - Fill\\",\\"hd\\":false},{\\"ty\\":\\"tr\\",\\"p\\":{\\"a\\":0,\\"k\\":[-248,40],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100],\\"ix\\":3},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":6},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":7},\\"sk\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":4},\\"sa\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":5},\\"nm\\":\\"Transform\\"}],\\"nm\\":\\"Ellipse 1\\",\\"np\\":3,\\"cix\\":2,\\"bm\\":0,\\"ix\\":3,\\"mn\\":\\"ADBE Vector Group\\",\\"hd\\":false}],\\"ip\\":0,\\"op\\":68,\\"st\\":0,\\"bm\\":0},{\\"ddd\\":0,\\"ind\\":2,\\"ty\\":4,\\"nm\\":\\"\\\\rBG\\",\\"sr\\":1,\\"ks\\":{\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":11},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":10},\\"p\\":{\\"a\\":0,\\"k\\":[400,300,0],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100,100],\\"ix\\":6}},\\"ao\\":0,\\"shapes\\":[{\\"ty\\":\\"gr\\",\\"it\\":[{\\"ty\\":\\"rc\\",\\"d\\":1,\\"s\\":{\\"a\\":0,\\"k\\":[800,600],\\"ix\\":2},\\"p\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":3},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":4},\\"nm\\":\\"Rectangle Path 1\\",\\"mn\\":\\"ADBE Vector Shape - Rect\\",\\"hd\\":false},{\\"ty\\":\\"fl\\",\\"c\\":{\\"a\\":0,\\"k\\":[1,1,1,1],\\"ix\\":4},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":5},\\"r\\":1,\\"bm\\":0,\\"nm\\":\\"Fill 1\\",\\"mn\\":\\"ADBE Vector Graphic - Fill\\",\\"hd\\":false},{\\"ty\\":\\"tr\\",\\"p\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":2},\\"a\\":{\\"a\\":0,\\"k\\":[0,0],\\"ix\\":1},\\"s\\":{\\"a\\":0,\\"k\\":[100,100],\\"ix\\":3},\\"r\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":6},\\"o\\":{\\"a\\":0,\\"k\\":100,\\"ix\\":7},\\"sk\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":4},\\"sa\\":{\\"a\\":0,\\"k\\":0,\\"ix\\":5},\\"nm\\":\\"Transform\\"}],\\"nm\\":\\"Rectangle 1\\",\\"np\\":3,\\"cix\\":2,\\"bm\\":0,\\"ix\\":1,\\"mn\\":\\"ADBE Vector Group\\",\\"hd\\":false}],\\"ip\\":0,\\"op\\":68,\\"st\\":0,\\"bm\\":0}],\\"markers\\":[]}"
+      speed={1}
+      style={
+        Object {
+          "aspectRatio": 1.3333333333333333,
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Map render correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <MapView
+    customMapStyle={
+      Array [
+        Object {
+          "elementType": "labels.text.fill",
+          "featureType": "administrative",
+          "stylers": Array [
+            Object {
+              "color": "#f0f2f7",
+            },
+          ],
+        },
+        Object {
+          "elementType": "geometry.fill",
+          "featureType": "administrative.country",
+          "stylers": Array [
+            Object {
+              "color": "#ff0000",
+            },
+            Object {
+              "visibility": "off",
+            },
+          ],
+        },
+        Object {
+          "elementType": "labels.text.fill",
+          "featureType": "administrative.locality",
+          "stylers": Array [
+            Object {
+              "visibility": "on",
+            },
+            Object {
+              "color": "#92a2bc",
+            },
+          ],
+        },
+        Object {
+          "elementType": "labels.text.fill",
+          "featureType": "administrative.neighborhood",
+          "stylers": Array [
+            Object {
+              "visibility": "on",
+            },
+            Object {
+              "color": "#92a2bc",
+            },
+          ],
+        },
+        Object {
+          "elementType": "all",
+          "featureType": "landscape",
+          "stylers": Array [
+            Object {
+              "color": "#f2f2f2",
+            },
+          ],
+        },
+        Object {
+          "elementType": "geometry.fill",
+          "featureType": "landscape",
+          "stylers": Array [
+            Object {
+              "color": "#f4f6f8",
+            },
+          ],
+        },
+        Object {
+          "elementType": "labels.text",
+          "featureType": "landscape",
+          "stylers": Array [
+            Object {
+              "visibility": "off",
+            },
+          ],
+        },
+        Object {
+          "elementType": "labels.text.fill",
+          "featureType": "landscape.man_made",
+          "stylers": Array [
+            Object {
+              "visibility": "on",
+            },
+            Object {
+              "color": "#92a2bc",
+            },
+          ],
+        },
+        Object {
+          "elementType": "labels.icon",
+          "featureType": "landscape.man_made",
+          "stylers": Array [
+            Object {
+              "visibility": "off",
+            },
+            Object {
+              "color": "#ff0000",
+            },
+          ],
+        },
+        Object {
+          "elementType": "all",
+          "featureType": "poi",
+          "stylers": Array [
+            Object {
+              "visibility": "off",
+            },
+          ],
+        },
+        Object {
+          "elementType": "geometry.fill",
+          "featureType": "poi",
+          "stylers": Array [
+            Object {
+              "weight": "10.00",
+            },
+            Object {
+              "visibility": "on",
+            },
+            Object {
+              "lightness": "40",
+            },
+            Object {
+              "saturation": "15",
+            },
+            Object {
+              "gamma": "1.53",
+            },
+            Object {
+              "color": "#edeff3",
+            },
+          ],
+        },
+        Object {
+          "elementType": "labels.text",
+          "featureType": "poi",
+          "stylers": Array [
+            Object {
+              "visibility": "simplified",
+            },
+            Object {
+              "color": "#92a2bc",
+            },
+          ],
+        },
+        Object {
+          "elementType": "labels.icon",
+          "featureType": "poi",
+          "stylers": Array [
+            Object {
+              "visibility": "off",
+            },
+          ],
+        },
+        Object {
+          "elementType": "geometry.fill",
+          "featureType": "poi.park",
+          "stylers": Array [
+            Object {
+              "color": "#daedce",
+            },
+          ],
+        },
+        Object {
+          "elementType": "all",
+          "featureType": "road",
+          "stylers": Array [
+            Object {
+              "saturation": -100,
+            },
+            Object {
+              "lightness": 45,
+            },
+          ],
+        },
+        Object {
+          "elementType": "geometry.fill",
+          "featureType": "road",
+          "stylers": Array [
+            Object {
+              "color": "#ffffff",
+            },
+          ],
+        },
+        Object {
+          "elementType": "geometry.stroke",
+          "featureType": "road",
+          "stylers": Array [
+            Object {
+              "color": "#eeeff3",
+            },
+          ],
+        },
+        Object {
+          "elementType": "labels.text.fill",
+          "featureType": "road",
+          "stylers": Array [
+            Object {
+              "color": "#92a2bc",
+            },
+          ],
+        },
+        Object {
+          "elementType": "labels.icon",
+          "featureType": "road",
+          "stylers": Array [
+            Object {
+              "visibility": "off",
+            },
+          ],
+        },
+        Object {
+          "elementType": "all",
+          "featureType": "road.highway",
+          "stylers": Array [
+            Object {
+              "visibility": "simplified",
+            },
+          ],
+        },
+        Object {
+          "elementType": "labels.text.fill",
+          "featureType": "road.arterial",
+          "stylers": Array [
+            Object {
+              "visibility": "on",
+            },
+          ],
+        },
+        Object {
+          "elementType": "labels.icon",
+          "featureType": "road.arterial",
+          "stylers": Array [
+            Object {
+              "visibility": "off",
+            },
+          ],
+        },
+        Object {
+          "elementType": "all",
+          "featureType": "transit",
+          "stylers": Array [
+            Object {
+              "visibility": "off",
+            },
+          ],
+        },
+        Object {
+          "elementType": "all",
+          "featureType": "water",
+          "stylers": Array [
+            Object {
+              "color": "#172024",
+            },
+            Object {
+              "visibility": "on",
+            },
+          ],
+        },
+        Object {
+          "elementType": "geometry.fill",
+          "featureType": "water",
+          "stylers": Array [
+            Object {
+              "color": "#d2e8fe",
+            },
+          ],
+        },
+        Object {
+          "elementType": "labels.text",
+          "featureType": "water",
+          "stylers": Array [
+            Object {
+              "visibility": "on",
+            },
+            Object {
+              "color": "#92a2bc",
+            },
+          ],
+        },
+      ]
+    }
+    moveOnMarkerPress={false}
+    rotateEnabled={false}
+    showsMyLocationButton={false}
+    style={
+      Array [
+        Object {
+          "height": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "bottom": 60,
+        "position": "absolute",
+        "right": 15,
+      }
+    }
+  >
+    <If>
+      <View
+        accessible={true}
+        focusable={false}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#8A93C8",
+            "borderRadius": 6,
+            "borderWidth": 0.2,
+            "height": 35,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 35,
+          }
+        }
+      >
+        <Image />
+      </View>
+    </If>
+    <View
+      accessible={true}
+      focusable={false}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#8A93C8",
+          "borderRadius": 6,
+          "borderWidth": 0.2,
+          "height": 35,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "marginTop": 25,
+          "opacity": 1,
+          "width": 35,
+        }
+      }
+    >
+      <Image />
+    </View>
+    <View
+      accessible={true}
+      focusable={false}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#8A93C8",
+          "borderRadius": 6,
+          "borderWidth": 0.2,
+          "height": 35,
+          "justifyContent": "center",
+          "marginBottom": 20,
+          "opacity": 1,
+          "width": 35,
+        }
+      }
+    >
+      <Image />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Text renders correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "fontSize": 15,
+      },
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`TextInput renders correctly 1`] = `
+<View>
+  <If
+    condition=""
+  >
+    <Text
+      caption={true}
+      style={
+        Array [
+          Object {
+            "fontSize": 15,
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Array [
+            Object {
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#b3b3b3",
+            },
+          ],
+        ]
+      }
+    />
+  </If>
+  <View
+    centered={true}
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <If>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 15,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ]
+        }
+      />
+    </If>
+    <TextInput
+      allowFontScaling={true}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "flex": 1,
+            "minHeight": 40,
+          },
+          null,
+          undefined,
+          Object {
+            "color": "black",
+          },
+        ]
+      }
+      underlineColorAndroid="#0000"
+    />
+  </View>
+  <If>
+    <View
+      pointerEvents="box-none"
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      />
+    </View>
+  </If>
+  <If
+    condition={true}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#e5e5e5",
+          },
+          Object {
+            "height": 0.5,
+          },
+        ]
+      }
+    />
+  </If>
+  <If>
+    <Text
+      caption={true}
+      secondary={true}
+      style={
+        Array [
+          Object {
+            "fontSize": 15,
+          },
+          undefined,
+          Object {
+            "color": "#B7C3CF",
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          Object {
+            "marginTop": 8,
+          },
+        ]
+      }
+    />
+  </If>
+  <If>
+    <View
+      pointerEvents="box-none"
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+          Object {
+            "alignItems": "flex-end",
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 30,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 30,
+          }
+        }
+      >
+        <Image
+          style={
+            Array [
+              undefined,
+            ]
+          }
+        />
+      </View>
+    </View>
+  </If>
+</View>
+`;
+
+exports[`VerticalDots render correctly 1`] = `
+<View
+  style={
+    Object {
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "borderColor": "#8CBC69",
+          "borderRadius": 45,
+          "borderWidth": 2,
+          "height": 10,
+          "marginBottom": 3,
+          "width": 10,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#EFF0F3",
+          "borderRadius": 25,
+          "height": 5,
+          "marginTop": 4,
+          "width": 5,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#EFF0F3",
+          "borderRadius": 25,
+          "height": 5,
+          "marginTop": 4,
+          "width": 5,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#EFF0F3",
+          "borderRadius": 25,
+          "height": 5,
+          "marginTop": 4,
+          "width": 5,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "borderColor": "#619EF4",
+          "borderRadius": 45,
+          "borderWidth": 2,
+          "height": 10,
+          "marginTop": 6,
+          "width": 10,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
